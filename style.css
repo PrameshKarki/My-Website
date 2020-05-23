@@ -1,0 +1,192 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 20px 0;
+}
+i {
+  color: tomato;
+}
+.flexContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: auto;
+}
+aside {
+  flex-basis: 300px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  line-height: 1.6;
+  padding: 20px;
+}
+
+.mainContent {
+  flex-basis: 1004px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  line-height: 1.6;
+  padding-left: 31px;
+}
+.myImage {
+  position: relative;
+  background-image: url("./images/myPhoto.JPG");
+  height: 221px;
+  width: 100%;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.progress {
+  height: 20px;
+  width: 300px;
+  border-radius: 20px;
+  background-color: #d8d8d8;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 6px;
+}
+
+.progress .progressDone75 {
+  display: flex;
+  height: 100%;
+  width: 225px;
+  background-color: tomato;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  justify-content: center;
+  align-items: center;
+}
+
+.progress .progressDone65 {
+  display: flex;
+  height: 100%;
+  width: 195px;
+  background-color: tomato;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  justify-content: center;
+  align-items: center;
+}
+
+.progress .progressDone80 {
+  display: flex;
+  height: 100%;
+  width: 240px;
+  background-color: tomato;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  justify-content: center;
+  align-items: center;
+}
+
+.progress .progressDone70 {
+  display: flex;
+  height: 100%;
+  width: 210px;
+  background-color: tomato;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  justify-content: center;
+  align-items: center;
+}
+
+.progress .progressDone85 {
+  display: flex;
+  height: 100%;
+  width: 255px;
+  background-color: tomato;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  justify-content: center;
+  align-items: center;
+}
+
+.progress .progressDone76 {
+  display: flex;
+  height: 100%;
+  width: 228px;
+  background-color: tomato;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  justify-content: center;
+  align-items: center;
+}
+span {
+  background-color: tomato;
+  color: white;
+  border: none;
+  display: inline-block;
+  border-radius: 2px;
+  text-align: center;
+  height: 27px;
+  width: 77px;
+  line-height: 27px;
+}
+
+footer {
+  background-color: tomato;
+  color: white;
+  text-align: center;
+  margin: 10px 0;
+  padding: 22px;
+  font-size: 15px;
+}
+footer .socialIcons a {
+  opacity: 0.5;
+  color: white;
+  transition: all 0.5s ease;
+  font-size: 25px;
+}
+div.aboutMe h3 {
+  text-align: center;
+}
+footer a:hover {
+  opacity: 1;
+  font-size: 20px;
+}
+.education,
+.education h3,
+.workExperience h3 {
+  padding-top: 30px;
+}
+@media screen and (max-width: 750px) and (min-width: 701px) {
+  h1 {
+    font-size: 20px;
+  }
+  .workExperience h3 {
+    padding-top: 3px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .flexContainer {
+    flex-direction: column;
+    width: 100%;
+    margin: 0;
+  }
+  body {
+    margin: 0;
+  }
+  .myImage {
+    width: 100%;
+    height: 221px;
+    background-size: 100% 100%;
+  }
+  aside {
+    padding-left: 22px;
+  }
+  .aboutMe {
+    text-align: center;
+  }
+  .mainContent {
+    padding-top: 20px;
+    margin-top: 15px;
+  }
+}
+@media screen and (min-width: 1520px) {
+  aside {
+    flex-basis: 30%;
+  }
+  .mainContent {
+    flex-basis: 70%;
+  }
+}
