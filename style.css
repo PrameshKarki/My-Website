@@ -28,6 +28,7 @@ aside {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   line-height: 1.6;
   padding-left: 31px;
+  margin-left:1px;
 }
 .myImage {
   position: relative;
@@ -188,5 +189,6 @@ footer a:hover {
   }
   .mainContent {
     flex-basis: 70%;
+    margin-left:1px;
   }
 }
