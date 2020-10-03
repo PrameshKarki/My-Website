@@ -1,2 +1,2 @@
-# My-Website
-This is my static website.
+Static portfolio website template.
+
